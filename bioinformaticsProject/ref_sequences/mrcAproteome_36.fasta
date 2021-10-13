@@ -5,9 +5,9 @@
 # Program:         hmmsearch
 # Version:         3.3.1 (Jul 2020)
 # Pipeline mode:   SEARCH
-# Query file:      buildmcrAgene_18.fasta
+# Query file:      buildmcrAgene_01.fasta
 # Target file:     proteome_36.fasta
-# Option settings: ./hmmsearch --tblout mrcAproteome_36.fasta buildmcrAgene_18.fasta proteome_36.fasta 
+# Option settings: ./hmmsearch --tblout mrcAproteome_36.fasta buildmcrAgene_01.fasta proteome_36.fasta 
 # Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
-# Date:            Tue Oct 12 21:35:11 2021
+# Date:            Tue Oct 12 22:40:08 2021
 # [ok]

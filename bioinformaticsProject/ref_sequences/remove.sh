@@ -1,4 +1,4 @@
-for i in mrcAhsp*.fasta 
+for i in mrcApro*.fasta1 
 do
 rm $i
 done

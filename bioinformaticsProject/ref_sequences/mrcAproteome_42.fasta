@@ -1,14 +1,14 @@
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-WP_048120720.1       -          musclemcrAgene_18    -                  0 1113.6   4.0         0 1113.4   4.0   1.0   1   0   0   1   1   1   1 MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+WP_048120720.1       -          musclemcrAgene_01    -           2.9e-258  856.0   4.1  3.4e-258  855.7   4.1   1.0   1   0   0   1   1   1   1 MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
 #
 # Program:         hmmsearch
 # Version:         3.3.1 (Jul 2020)
 # Pipeline mode:   SEARCH
-# Query file:      buildmcrAgene_18.fasta
+# Query file:      buildmcrAgene_01.fasta
 # Target file:     proteome_42.fasta
-# Option settings: ./hmmsearch --tblout mrcAproteome_42.fasta buildmcrAgene_18.fasta proteome_42.fasta 
+# Option settings: ./hmmsearch --tblout mrcAproteome_42.fasta buildmcrAgene_01.fasta proteome_42.fasta 
 # Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
-# Date:            Tue Oct 12 21:35:12 2021
+# Date:            Tue Oct 12 22:40:09 2021
 # [ok]
