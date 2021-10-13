@@ -1,7 +1,7 @@
 #combine reference sequence files for mcrAgene and  hsp70gene
 
-cat mcrA_combined_file.fasta
-cat hsp70gene_combined_file.fasta 
+cat hsp70gene_*.fasta >> hsp70gene_combined_file.fasta
+cat mcrAgene_*.fasta >> mcrAgene_combined_file.fasta 
 
 # Align mcrA reference sequences using muscle and build an hmm profile using hmm build
 
