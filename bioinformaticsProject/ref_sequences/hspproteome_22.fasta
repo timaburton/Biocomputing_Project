@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+YP_003771257.1       -          muscleallhsp         -           9.8e-281  931.5  23.7  1.1e-280  931.3  23.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+YP_003768560.1       -          muscleallhsp         -              4e-56  189.5   0.1   6.7e-56  188.8   0.1   1.3   1   1   0   1   1   1   1 molecular chaperone DnaK 
+YP_003767333.1       -          muscleallhsp         -            3.1e-51  173.4   0.0   4.1e-51  173.0   0.0   1.1   1   0   0   1   1   1   1 chaperone protein DnaK-like protein 
+YP_003764540.1       -          muscleallhsp         -            5.8e-38  129.6   0.0   7.7e-38  129.2   0.0   1.1   1   0   0   1   1   1   1 molecular chaperone Hsp70 
+YP_003770822.1       -          muscleallhsp         -            8.8e-33  112.5   0.0   1.3e-32  111.9   0.0   1.2   1   0   0   1   1   1   1 molecular chaperone Hsp70 
+YP_003762942.1       -          muscleallhsp         -            1.3e-28   98.6   0.0   2.1e-28   98.0   0.0   1.3   1   0   0   1   1   1   1 molecular chaperone 
+YP_003763703.1       -          muscleallhsp         -            8.8e-06   23.3   0.0   1.1e-05   22.9   0.0   1.1   1   0   0   1   1   1   1 molecular chaperone DnaK-like protein 
+YP_003764309.1       -          muscleallhsp         -              0.044   11.1   0.2     0.079   10.2   0.0   1.4   2   0   0   2   2   2   0 3-oxoacyl-ACP synthase 
+YP_003762961.1       -          muscleallhsp         -                0.1    9.9   0.1       0.2    8.9   0.0   1.4   2   0   0   2   2   2   0 D-xylulose kinase 
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      buildallhsp.fasta
+# Target file:     proteome_22.fasta
+# Option settings: ./hmmsearch --tblout hspproteome_22.fasta buildallhsp.fasta proteome_22.fasta 
+# Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
+# Date:            Wed Oct 13 18:36:20 2021
+# [ok]

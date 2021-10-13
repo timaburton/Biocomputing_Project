@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011957951.1       -          muscleallhsp         -           3.4e-287  951.8  15.0  3.1e-253  839.6   9.6   2.0   2   0   0   2   2   2   2 molecular chaperone DnaK 
+WP_011958160.1       -          muscleallhsp         -           6.9e-273  904.5  13.5  2.2e-241  800.5   7.0   2.0   2   0   0   2   2   2   2 molecular chaperone DnaK 
+WP_011955291.1       -          muscleallhsp         -              7e-13   45.7   4.6   3.7e-11   40.0   4.6   2.7   1   1   0   1   1   1   1 rod shape-determining protein 
+WP_011956039.1       -          muscleallhsp         -              1e-09   35.3   5.7   2.7e-08   30.6   5.7   2.3   1   1   0   1   1   1   1 rod shape-determining protein 
+WP_011959219.1       -          muscleallhsp         -            0.00015   18.2   0.1    0.0011   15.3   0.0   1.9   2   0   0   2   2   2   1 carbohydrate kinase 
+WP_011958489.1       -          muscleallhsp         -             0.0011   15.4   3.7    0.0075   12.6   0.5   2.8   3   0   0   3   3   3   1 cell division protein FtsA 
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      buildallhsp.fasta
+# Target file:     proteome_12.fasta
+# Option settings: ./hmmsearch --tblout hspproteome_12.fasta buildallhsp.fasta proteome_12.fasta 
+# Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
+# Date:            Wed Oct 13 18:36:19 2021
+# [ok]

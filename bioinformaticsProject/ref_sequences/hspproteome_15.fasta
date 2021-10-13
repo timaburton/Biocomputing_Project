@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011971911.1       -          muscleallhsp         -           2.6e-103  342.9   8.1  6.7e-103  341.6   8.1   1.6   1   1   0   1   1   1   1 2-alkenal reductase 
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      buildallhsp.fasta
+# Target file:     proteome_15.fasta
+# Option settings: ./hmmsearch --tblout hspproteome_15.fasta buildallhsp.fasta proteome_15.fasta 
+# Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
+# Date:            Wed Oct 13 18:36:19 2021
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012941020.1       -          muscleallhsp         -              0.068    8.1  17.3     0.074    8.0  17.3   1.0   1   0   0   1   1   1   0 ATP synthase archaeal subunit H 
+WP_012939454.1       -          muscleallhsp         -               0.17    6.7   9.7      0.19    6.6   9.7   1.1   1   0   0   1   1   1   0 hypothetical protein 
+WP_012941024.1       -          muscleallhsp         -                0.7    4.7  16.6       0.9    4.4  16.6   1.1   1   0   0   1   1   1   0 V-type ATP synthase subunit E 
+WP_012766394.1       -          muscleallhsp         -                1.5    3.7  10.4       1.8    3.4  10.4   1.0   1   0   0   1   1   1   0 hypothetical protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      buildallhsp.fasta
+# Target file:     proteome_17.fasta
+# Option settings: ./hmmsearch --tblout hspproteome_17.fasta buildallhsp.fasta proteome_17.fasta 
+# Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
+# Date:            Wed Oct 13 18:36:19 2021
+# [ok]
