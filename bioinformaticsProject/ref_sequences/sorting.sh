@@ -1,4 +1,4 @@
-for i in *.fasta
+for i in mcrAgene_*.fasta
 do
 #	./muscle -in $i -out muscle$i
 #	./hmmbuild build$i muscle$i
