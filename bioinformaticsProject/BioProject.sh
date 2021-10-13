@@ -22,8 +22,8 @@ cat ./ref_sequences/hsp70gene_*.fasta >> hsp70gene_combined_file1.fasta
 
 # Align hsp70 reference sequences using muscle and build an hmm profile using hmm build
 
-#~/Private/bashproject/muscle3.8.31_i86linux64 -in hsp70gene_combined_file1.fasta -out hsp70_muscle_results1
-#~/Private/bin/bin/hmmbuild hsp70_hmmbuild_results1 hsp70_muscle_results1
+~/Private/bashproject/muscle3.8.31_i86linux64 -in hsp70gene_combined_file1.fasta -out hsp70_muscle_results1
+~/Private/bin/bin/hmmbuild hsp70_hmmbuild_results1 hsp70_muscle_results1
 
 # Search proteomes using hmm profile for hsp70 gene
 
