@@ -10,5 +10,5 @@ WP_048120720.1       -          musclemcrAgene_09    -           5.2e-216  716.0
 # Target file:     ../proteomes/proteome_50.fasta
 # Option settings: ./hmmsearch --tblout mrcAmcrAgene_09.fasta buildmcrAgene_09.fasta ../proteomes/proteome_50.fasta 
 # Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
-# Date:            Tue Oct 12 20:10:47 2021
+# Date:            Tue Oct 12 21:28:00 2021
 # [ok]
