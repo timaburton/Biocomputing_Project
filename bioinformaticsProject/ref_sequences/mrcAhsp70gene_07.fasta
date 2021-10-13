@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_048118742.1       -          musclehsp70gene_07   -           2.1e-209  694.4  21.7  2.5e-209  694.2  21.7   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+WP_048116754.1       -          musclehsp70gene_07   -            1.8e-70  235.4   6.9   8.7e-70  233.2   6.9   1.8   1   1   0   1   1   1   1 MULTISPECIES: hypothetical protein 
+WP_048116752.1       -          musclehsp70gene_07   -            9.9e-67  223.1  11.4   7.6e-61  203.6   5.7   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      buildhsp70gene_07.fasta
+# Target file:     ../proteomes/proteome_50.fasta
+# Option settings: ./hmmsearch --tblout mrcAhsp70gene_07.fasta buildhsp70gene_07.fasta ../proteomes/proteome_50.fasta 
+# Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
+# Date:            Tue Oct 12 19:56:35 2021
+# [ok]
