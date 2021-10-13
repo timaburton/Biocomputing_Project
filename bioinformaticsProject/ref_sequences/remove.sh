@@ -1,4 +1,4 @@
-for i in mrcApro*.fasta1 
+for i in musclemcrAgene_*.fasta 
 do
 rm $i
 done

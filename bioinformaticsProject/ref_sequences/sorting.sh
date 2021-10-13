@@ -1,15 +1,28 @@
-#for i in mcrAgene_*.fasta
-#do
-#	./muscle -in $i -out muscle$i
-#	./hmmbuild build$i muscle$i
-#m=1
+cat mcrAgene_*.fasta >> allmcrAgene.fasta
+
+	./muscle -in allmcrAgene.fasta -out muscleallmcrAgene.fasta
+	./hmmbuild buildallmrcA.fasta muscleallmcrAgene.fasta
+
 for j in proteome_*.fasta
 do
 
-	./hmmsearch --tblout mrcA$j buildmcrAgene_01.fasta $j
+	./hmmsearch --tblout mrcA$j buildallmrcA.fasta $j
+	
 done	
-#for k in mrcAproteome_*.fasta
-#do 	
-#cat $k | grep "WP" | sed -e s/'\s'/,/g | cut -d "," -f 40 >> t.txt
-#done	
+
+cat mrcAproteome_*.fasta
+for k in mrcAproteome_*.fasta
+do 	
+cat $k | grep "WP" | sed -e s/'\s'/,/g 
+#echo $k " " $number >> t.txt
+done	
 #done 
+#for z in hsp70gene_*.fasta
+#do
+#	./muscle -in $z -out muscle$z
+#	./hmmbuild build$z muslce$z
+#for l in hasmrcA*.fasta
+#do
+
+#done
+#done
