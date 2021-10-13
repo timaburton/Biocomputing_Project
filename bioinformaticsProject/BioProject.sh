@@ -10,7 +10,10 @@ cat mcrAgene_*.fasta >> mcrAgene_combined_file.fasta
 
 # Search proteomes using hmm profile for mcrA gene
 
-for proteome in proteomes; do ~/Private/bin/bin/hmmsearch --tblout mcrA_search_results ./ref_sequences/ mcrA_hmmbuild_results ./proteomes/proteome_*.fasta >> proteome_mcrA_results; done
+for proteome in proteomes
+do
+~/Private/bin/bin/hmmsearch --tblout mcrA_search_results ./ref_sequences/mcrA_hmmbuild_results ./proteomes/*.fasta >> proteome_mcrA_results 
+done
 
 #Worked for one file, need to turn into loop
 
