@@ -1,0 +1,15 @@
+Proteome 03 = 3 HSP, 1 MCRA
+Proteome 05 = 2 HSP, 1 MCRA
+Proteome 07 = 2 HSP, 1 MCRA
+Proteome 15 = 1 HSP, 1 MCRA
+Proteome 16 = 1 HSP, 1 MCRA
+Proteome 19 = 1 HSP, 2 MCRA
+Proteome 23 = 2 HSP, 2 MCRA
+Proteome 24 = 2 HSP, 1 MCRA
+Proteome 38 = 1 HSP, 1 MCRA
+Proteome 39 = 1 HSP, 1 MCRA
+Proteome 42 = 3 HSP, 1 MCRA
+Proteome 44 = 1 HSP, 1 MCRA
+Proteome 45 = 3 HSP, 1 MCRA
+Proteome 48 = 1 HSP, 1 MCRA
+Proteome 50 = 3 HSP, 1 MCRA
