@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012035370.1       -          mcrAgene_muscle      -                  0 1059.8   3.2         0 1059.6   3.2   1.0   1   0   0   1   1   1   1 coenzyme-B sulfoethylthiotransferase subunit alpha 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../ref_sequences/mcrAgene_hmm.txt
+# Target file:     proteome_38.fasta
+# Option settings: ../bin/hmmsearch --tblout 38resultsmcrAgene_match ../ref_sequences/mcrAgene_hmm.txt proteome_38.fasta 
+# Current dir:     /afs/crc.nd.edu/user/h/hlaboe/Biocomputing_Project/bioinformaticsProject/proteomes
+# Date:            Thu Oct 14 15:52:33 2021
+# [ok]
