@@ -39,7 +39,8 @@ echo $proteome_name, $mcrAmatches, $hsp70matches >> summary_table.csv
 done
 
 #Titles 
-sed -i 1i "Proteome_number mcrA_matches Hsp70_matches" summary_table.csv| cat summary_table.csv| sort -t "," -k2 
+echo Proteome_number mcrA_matches Hsp70_matches
+cat summary_table.csv| sort -t "," -k2 
 
 #Text File with final proteomes 
 cat summary_table.csv| sort -t "," -k2| tail -n -16| cut -d "," -f1 >> Proteome_Results.txt 
