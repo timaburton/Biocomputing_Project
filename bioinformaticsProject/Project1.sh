@@ -19,6 +19,8 @@ cat $1/hsp70gene_*.fasta > hsp70gene.fasta
 ../hmmer/bin/hmmbuild mcrA_profile.hmm mcrAgene_aligned.fasta
 ../hmmer/bin/hmmbuild hsp70_profile.hmm hsp70gene_aligned.fasta
 
+echo "proteome_ID,mcrA_gene,hsp70_gene" > match_count_table.csv
+
 # 4. search for gene in each proteome
 for proteome in $2/proteome_*.fasta
 do
@@ -27,5 +29,6 @@ do
 mcrA_match=$(cat mcrA_search.txt | grep -v "#" | wc -l)
 hsp70_match=$(cat hsp70_search.txt | grep -v "#" | wc -l)
 # make a table with 3 columns (proteome name, mcrA match count, hsp70 match count)
-
+echo "$proteome,$mcrA_match,$hsp70_match" >> match_count_table.csv
 done
+
