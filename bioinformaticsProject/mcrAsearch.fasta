@@ -10,5 +10,5 @@ WP_048120720.1       -          mcrAlignment         -                  0 1125.7
 # Target file:     ./proteomes/proteome_50.fasta
 # Option settings: ./hmmer/bin/hmmsearch --tblout mcrAsearch.fasta ./ref_sequences/mcrAbuild.fasta ./proteomes/proteome_50.fasta 
 # Current dir:     /afs/crc.nd.edu/user/n/nross3/Private/Biocomp_Project/bioinformaticsProject
-# Date:            Thu Oct 14 22:49:14 2021
+# Date:            Fri Oct 15 10:02:55 2021
 # [ok]

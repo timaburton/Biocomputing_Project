@@ -12,5 +12,5 @@ WP_048116752.1       -          hsp70Alignment       -           6.8e-107  355.8
 # Target file:     ./proteomes/proteome_50.fasta
 # Option settings: ./hmmer/bin/hmmsearch --tblout hsp70search.fasta ./ref_sequences/hsp70build.fasta ./proteomes/proteome_50.fasta 
 # Current dir:     /afs/crc.nd.edu/user/n/nross3/Private/Biocomp_Project/bioinformaticsProject
-# Date:            Thu Oct 14 22:49:14 2021
+# Date:            Fri Oct 15 10:02:56 2021
 # [ok]

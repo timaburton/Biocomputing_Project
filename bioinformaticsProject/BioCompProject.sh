@@ -61,7 +61,7 @@ $Path5/hmmsearch --tblout hsp70search.fasta $Path2/hsp70build.fasta $Path3/prote
 
 hsp70hit=$(cat hsp70search.fasta | grep -v "^#" | wc -l)
 
-echo -e Proteome_$i'\t'$mcrAhit'\t'$hsp70hit >> genehitlist.csv 
+echo -e Proteome_$i'\t'$mcrAhit'\t\t'$hsp70hit >> genehitlist.csv 
 
 done	
 
@@ -71,7 +71,7 @@ done
 #discard any that return with 0 hits. Following this we sort the reminaing proteomes based on their 
 #the number of hsp70 gene hits/matches. Finally, this list is stored in a new .txt file and is displayed for the user to see
 
-cat genehitlist.csv |awk -F '\t' '$2>0'|sort -k 3 -nr | head -n 5 | cut -d "\t" -f 1 > UltimateHitList.txt 
+cat genehitlist.csv |awk -F '\t' '$2>0'|sort -k 3 -nr | head -n 5 | cut -f 1 > UltimateHitList.txt 
 
 echo "This is the ultimate list of Proteomes to use for your experiment...Good luck!"
 cat UltimateHitList.txt
