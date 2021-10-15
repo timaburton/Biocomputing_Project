@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_055360419.1       -          hsp70                -           3.6e-262  868.4  31.3  9.8e-233  771.2  25.6   2.0   1   1   1   2   2   2   2 molecular chaperone DnaK 
+WP_055360541.1       -          hsp70                -           1.1e-156  520.0  14.1  1.1e-143  477.1  12.9   2.0   2   0   0   2   2   2   2 Fe-S protein assembly chaperone HscA 
+WP_055359523.1       -          hsp70                -            2.5e-14   49.8   0.3   1.5e-13   47.2   0.0   2.2   3   0   0   3   3   3   1 MULTISPECIES: rod shape-determining protein 
+WP_055361642.1       -          hsp70                -            7.3e-06   21.8   3.4      0.01   11.5   0.1   3.1   3   1   1   4   4   4   2 cell division protein FtsA 
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70results
+# Target file:     proteome_04.fasta
+# Option settings: /afs/crc.nd.edu/user/p/pbrown22/Private/bin/hmmsearch --tblout hsp70searchproteome_04.fasta hsp70results proteome_04.fasta 
+# Current dir:     /afs/crc.nd.edu/user/p/pbrown22/Private/Biocomputing_Project/bioinformaticsProject/proteomes
+# Date:            Fri Oct 15 19:20:27 2021
+# [ok]
