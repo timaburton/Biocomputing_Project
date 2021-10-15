@@ -1,9 +1,9 @@
 #this is the rough draft of our Bash project script
 #usage: TBD but something around bash biocomp_project.sh <ref sequence file> <location of muscle tool>
 
-#access ref file 
+#access ref files 
 
-# cd 
+ cd 
 
 #to combine the raw hsp70 files into one fasta that we will hmm
 
