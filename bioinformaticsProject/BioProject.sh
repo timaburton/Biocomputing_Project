@@ -1,7 +1,7 @@
 # Script searches genomes for genes of interest and produces a summary table with the results of the searches. 
-# Determines which of the 50 isolated proteomes are  the best candidates for continued growth experiments by searching for matches to the mcrA gene and the hsp70 gene. 
+# Determines which of the 50 isolated proteomes are the best candidates for continued growth experiments by searching for matches to the mcrA gene and the hsp70 gene. 
 # Usage: bash BioProject.sh
-# Script was written to be used from the bioinformaticeProject directory based on rlative paths but could be used from anywhere with  adjusted paths to necessary files.  
+# Script was written to be used from the bioinformaticsProject directory based on relative paths but could be used from anywhere with adjusted paths to necessary files.  
 # Path to bioinformatics folder: ~/Private/bashproject/Biocomputing_Project/bioinformaticsProject
 
 # Combine reference sequence files for mcrAgene
@@ -36,7 +36,7 @@ done
 cat summary_table.csv  
 
 # Text file with candidate pH-resistant methanogens   
-echo "These are the proteomes that we have identified as being the best candidates for continued growth experiments. We selected these proteomes because they all have the mcrA gene present, indicating that they are methanogens, and because these four proteomes all have three matches for the hsp70 gene, which is the most off all the methanogens present. This means that they are the most pH resistant proteomes of the methanogens, and will have the best chance at growth. The next best proteome candidates had only two hsp70 gene matches, so we used this as our decision point." > Proteome_Results.txt
+echo "These are the proteomes that we have identified as being the best candidates for continued growth experiments. We selected these proteomes because they all have the mcrA gene present, indicating that they are methanogens, and because these four proteomes all have three matches for the hsp70 gene, which is the most of all the methanogens present. This means that they are the most pH resistant proteomes of the methanogens, and will have the best chance at growth. The next best proteome candidates had only two hsp70 gene matches, so we used this as our decision point." > Proteome_Results.txt
 cat summary_table.csv | grep -E -v P | sort -t "," -k2 -n | tail -n -16 | sort -t "," -k3 -n | tail -n -4 | cut -d "," -f1 >> Proteome_Results.txt
 cat Proteome_Results.txt 
 
