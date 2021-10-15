@@ -1,4 +1,5 @@
 ## Identifying candidate pH-resistant methanogenic Archaea
+# Project by Johanna Olesk and Nihat Aliyev
 
 # The aim of this project is to identify which of the 50 isolated microbe proteomes belong to pH-resistant methanogens. This can be done by looking at the presence of the methyl-coenzyme M reductase (mcrA) gene catalyzing the last step of the methanogenesis, and the number of copies of HSP70 gene which is involved in protein biogenesis and refolding for stress resistance.
 
@@ -31,7 +32,8 @@ do
 mcrA_match=$(cat mcrA_search.txt | grep -v "#" | wc -l)
 hsp70_match=$(cat hsp70_search.txt | grep -v "#" | wc -l)
 # make a table with 3 columns (proteome name, mcrA match count, hsp70 match count)
-echo "$proteome,$mcrA_match,$hsp70_match" >> Results/match_count_table.csv
+proteomeID=$(echo $proteome | sed 's/.*\/\(.*\)\..*/\1/')
+echo "$proteomeID,$mcrA_match,$hsp70_match" >> Results/match_count_table.csv
 done
 
 echo "These are the pH-resistant methanogens chosen according to the presence of the mcrA gene and the number of copies of hsp70 gene (we chose the copy number 2 or more)." > Results/pHresistant_methanogens.txt
