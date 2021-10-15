@@ -27,19 +27,20 @@ done
 	# hsp70gene
 ./hmmbuild hsp70gene.hmm HSP_Muscle.afasta
 
-## Searching the proteomes for mcrAgene and hsp70gen (with hmmsearch)
 
-	# mcrAgene & hsp70gene 
+## initializing the final table
 echo "
 HSP70 & mcrA output
 " > final.tbl
- 
+
+## Searching the proteomes for mcrAgene and hsp70gen (with hmmsearch)
 for genes in ./proteomes/*.fasta
 do
 ./hmmsearch --tblout $genes.hsp70gene.tbl hsp70gene.hmm $genes
 ./hmmsearch --tblout  $genes.mcrAgene.tbl mcrAgene.hmm $genes
 done
- 
+
+## counting all the times we found gene matches
 for genes in ./proteomes/*.fasta
 do
 x=$(echo $genes | sed -E 's/[^0-9]//g')
@@ -48,5 +49,8 @@ mcrA=$(cat $genes.mcrAgene.tbl | grep "MCRA_Muscle" | uniq | wc -l)
 echo "Proteome" $x $hsp "HSP" $mcrA "mcrA" >> final.tbl
 done
 
+## saving all the genes that are considered candidates
 grep -v ' 0 ' final.tbl > candidates.txt
+
+## Thank you :)))
 
