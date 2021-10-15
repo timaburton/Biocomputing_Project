@@ -35,7 +35,9 @@ mv ./mcrAresults ../proteomes
 
 mv ./hsp70results ../proteomes
 
-#cd ..
+#Move to proteome directory from ref_sequences
+
+cd  ~/Private/Biocomputing_Project/bioinformaticsProject/proteomes/
 
 #hmmsearch hsp70
 
@@ -44,6 +46,22 @@ do
 echo | ~/Private/bin/hmmsearch --tblout hsp70search$file  hsp70results  $file
 done
 
+#Sorting hsp based on proteome
+
+for file in hsp70searchproteome_*
+do
+grep "# Target\|WP" $file > newcomposite2$file
+done
+
+#Finding amount of hsp in each proteome
+
+for file in newcompositehsp70searchproteome_*
+do
+echo
+wc -l $file >> CompiledWChsp70
+done
+
+
 #hmmsearch mcrA
 
 for file in proteome*
@@ -51,11 +69,16 @@ do
 echo | ~/Private/bin/hmmsearch --tblout mcrAsearch$file  mcrAresults  $file
 done
 
-#Compiling all hsp70searches
+#Sorting mcrA  based on proteome
 
-echo | cat hsp70searchproteome_* > compositesearch1
+for file in mcrAsearchproteome_*
+do
+grep "# Target\|WP" $file > newcomposite1$file
+done
 
-#Compiling all mcrAsearches
-
-echo | catmcrAsearchproteome_* > compositesearch2
+#Finding amount of mcrA in each proteome 
+do
+echo
+wc -l $file >> CompiledWCmcrA
+done
 

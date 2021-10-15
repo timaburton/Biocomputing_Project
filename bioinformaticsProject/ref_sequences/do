@@ -1,0 +1,4 @@
+echo
+wc -l $file >> CompiledWChsp70
+done
+
