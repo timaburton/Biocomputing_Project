@@ -1,0 +1,16 @@
+proteome_name,count_hsp,count_mcr,candidate_score
+../proteomes/proteome_23.fasta,2,2,4
+../proteomes/proteome_50.fasta,3,1,3
+../proteomes/proteome_45.fasta,3,1,3
+../proteomes/proteome_42.fasta,3,1,3
+../proteomes/proteome_03.fasta,3,1,3
+../proteomes/proteome_24.fasta,2,1,2
+../proteomes/proteome_19.fasta,1,2,2
+../proteomes/proteome_07.fasta,2,1,2
+../proteomes/proteome_05.fasta,2,1,2
+../proteomes/proteome_48.fasta,1,1,1
+../proteomes/proteome_44.fasta,1,1,1
+../proteomes/proteome_39.fasta,1,1,1
+../proteomes/proteome_38.fasta,1,1,1
+../proteomes/proteome_16.fasta,1,1,1
+../proteomes/proteome_15.fasta,1,1,1
