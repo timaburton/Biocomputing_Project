@@ -19,3 +19,4 @@ $2 -in hsp70.fasta -out hsp70.hmm
 
 #muscling the compiled mcrA
 $2 -in hsp70.fasta -out hsp70.hmm
+
