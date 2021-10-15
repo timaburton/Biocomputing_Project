@@ -9,5 +9,5 @@
 # Target file:     proteome_33.fasta
 # Option settings: ./hmmsearch --tblout mrcAproteome_33.fasta buildallmrcA.fasta proteome_33.fasta 
 # Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
-# Date:            Wed Oct 13 17:45:31 2021
+# Date:            Fri Oct 15 10:52:03 2021
 # [ok]

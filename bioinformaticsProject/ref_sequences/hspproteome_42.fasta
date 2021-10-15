@@ -1,9 +1,9 @@
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-WP_048118742.1       -          muscleallhsp         -                  0 1102.0  23.9         0 1101.8  23.9   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
-WP_048116754.1       -          muscleallhsp         -             1e-109  365.2   8.9  3.4e-100  333.7   3.7   2.0   2   0   0   2   2   2   2 MULTISPECIES: hypothetical protein 
-WP_048116752.1       -          muscleallhsp         -           1.2e-106  355.0  13.6   1.5e-99  331.5   6.5   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
+WP_048118742.1       -          muscleallhsp         -                  0 1101.7  23.7         0 1101.6  23.7   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+WP_048116754.1       -          muscleallhsp         -           1.1e-109  365.1   8.9  3.7e-100  333.6   3.7   2.0   2   0   0   2   2   2   2 MULTISPECIES: hypothetical protein 
+WP_048116752.1       -          muscleallhsp         -           1.3e-106  354.9  13.6   1.6e-99  331.5   6.5   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
 #
 # Program:         hmmsearch
 # Version:         3.3.1 (Jul 2020)
@@ -12,5 +12,5 @@ WP_048116752.1       -          muscleallhsp         -           1.2e-106  355.0
 # Target file:     proteome_42.fasta
 # Option settings: ./hmmsearch --tblout hspproteome_42.fasta buildallhsp.fasta proteome_42.fasta 
 # Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
-# Date:            Wed Oct 13 18:36:22 2021
+# Date:            Fri Oct 15 10:54:24 2021
 # [ok]

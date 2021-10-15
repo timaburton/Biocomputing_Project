@@ -1,7 +1,7 @@
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-WP_010902322.1       -          muscleallhsp         -                  0 1046.2  31.9         0 1046.0  31.9   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+WP_010902322.1       -          muscleallhsp         -                  0 1048.0  32.1         0 1047.8  32.1   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
 #
 # Program:         hmmsearch
 # Version:         3.3.1 (Jul 2020)
@@ -10,5 +10,5 @@ WP_010902322.1       -          muscleallhsp         -                  0 1046.2
 # Target file:     proteome_41.fasta
 # Option settings: ./hmmsearch --tblout hspproteome_41.fasta buildallhsp.fasta proteome_41.fasta 
 # Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
-# Date:            Wed Oct 13 18:36:22 2021
+# Date:            Fri Oct 15 10:54:24 2021
 # [ok]

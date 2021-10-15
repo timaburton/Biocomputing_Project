@@ -1,13 +1,13 @@
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-WP_053549228.1       -          muscleallhsp         -           1.7e-283  939.2  23.7  9.1e-250  827.8  18.3   2.0   1   1   1   2   2   2   2 molecular chaperone DnaK 
-WP_053550046.1       -          muscleallhsp         -              2e-12   43.8   5.4   8.9e-12   41.7   5.4   1.9   1   1   0   1   1   1   1 rod shape-determining protein 
-WP_053550968.1       -          muscleallhsp         -            0.00076   15.5   0.2    0.0081   12.1   0.1   2.2   1   1   0   2   2   2   1 pilus assembly protein PilM 
-WP_053549249.1       -          muscleallhsp         -             0.0024   13.8   0.2     0.096    8.5   0.0   2.0   2   0   0   2   2   2   2 ketoacyl-ACP synthase III 
-WP_053551643.1       -          muscleallhsp         -             0.0031   13.4   0.7    0.0031   13.4   0.7   2.6   3   1   0   3   3   3   1 cell division protein FtsA 
-WP_053550303.1       -          muscleallhsp         -             0.0078   12.1   0.1     0.012   11.5   0.1   1.2   1   0   0   1   1   1   1 4-hydroxy-3-methylbut-2-enyl diphosphate reductase 
-WP_082351077.1       -          muscleallhsp         -              0.019   10.9   0.5     0.055    9.3   0.1   1.7   2   0   0   2   2   2   0 hypothetical protein 
+WP_053549228.1       -          muscleallhsp         -           2.4e-283  938.7  23.9  1.2e-280  929.7  23.9   2.0   1   1   0   1   1   1   1 molecular chaperone DnaK 
+WP_053550046.1       -          muscleallhsp         -            2.4e-12   43.5   5.7   1.1e-11   41.4   5.7   1.9   1   1   0   1   1   1   1 rod shape-determining protein 
+WP_053550968.1       -          muscleallhsp         -            0.00077   15.5   0.2    0.0086   12.0   0.1   2.2   1   1   1   2   2   2   1 pilus assembly protein PilM 
+WP_053549249.1       -          muscleallhsp         -             0.0024   13.8   0.2     0.098    8.5   0.0   2.0   2   0   0   2   2   2   2 ketoacyl-ACP synthase III 
+WP_053551643.1       -          muscleallhsp         -             0.0031   13.5   0.8    0.0031   13.5   0.8   2.6   3   1   0   3   3   3   1 cell division protein FtsA 
+WP_053550303.1       -          muscleallhsp         -             0.0081   12.1   0.1     0.012   11.5   0.1   1.2   1   0   0   1   1   1   1 4-hydroxy-3-methylbut-2-enyl diphosphate reductase 
+WP_082351077.1       -          muscleallhsp         -              0.019   10.9   0.5     0.056    9.3   0.1   1.7   2   0   0   2   2   2   0 hypothetical protein 
 #
 # Program:         hmmsearch
 # Version:         3.3.1 (Jul 2020)
@@ -16,5 +16,5 @@ WP_082351077.1       -          muscleallhsp         -              0.019   10.9
 # Target file:     proteome_31.fasta
 # Option settings: ./hmmsearch --tblout hspproteome_31.fasta buildallhsp.fasta proteome_31.fasta 
 # Current dir:     /afs/crc.nd.edu/user/m/mschmi26/BiocompProject/Biocomputing_Project/bioinformaticsProject/ref_sequences
-# Date:            Wed Oct 13 18:36:21 2021
+# Date:            Fri Oct 15 10:54:23 2021
 # [ok]

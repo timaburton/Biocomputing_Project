@@ -1,0 +1,50 @@
+hspproteome_01.fasta   4	
+hspproteome_02.fasta   1	
+hspproteome_03.fasta   3	1116.8
+hspproteome_04.fasta   4	
+hspproteome_05.fasta   2	1019.6
+hspproteome_06.fasta   0	
+hspproteome_07.fasta   2	1016.9
+hspproteome_08.fasta   5	
+hspproteome_09.fasta   1	
+hspproteome_10.fasta   3	
+hspproteome_11.fasta   6	
+hspproteome_12.fasta   6	
+hspproteome_13.fasta   3	
+hspproteome_14.fasta   1	
+hspproteome_15.fasta   1	1029.4
+hspproteome_16.fasta   1	1061.1
+hspproteome_17.fasta   3	
+hspproteome_18.fasta   8	
+hspproteome_19.fasta   1	1030.9
+hspproteome_20.fasta   3	
+hspproteome_21.fasta   0	
+hspproteome_22.fasta   0	
+hspproteome_23.fasta   2	1057.3
+hspproteome_24.fasta   2	1123.3
+hspproteome_25.fasta   0	
+hspproteome_26.fasta   1	
+hspproteome_27.fasta   1	
+hspproteome_28.fasta   1	
+hspproteome_29.fasta   0	1088.8
+hspproteome_30.fasta   1	
+hspproteome_31.fasta   7	
+hspproteome_32.fasta   4	
+hspproteome_33.fasta   0	
+hspproteome_34.fasta   1	
+hspproteome_35.fasta   1	
+hspproteome_36.fasta   3	
+hspproteome_37.fasta   1	
+hspproteome_38.fasta   1	1061.1
+hspproteome_39.fasta   1	1061.1
+hspproteome_40.fasta   1	
+hspproteome_41.fasta   1	
+hspproteome_42.fasta   3	1116.8
+hspproteome_43.fasta   3	
+hspproteome_44.fasta   1	1061.1
+hspproteome_45.fasta   3	1116.8
+hspproteome_46.fasta   1	
+hspproteome_47.fasta   1	
+hspproteome_48.fasta   1	1061.1
+hspproteome_49.fasta   3	
+hspproteome_50.fasta   3	1116.8

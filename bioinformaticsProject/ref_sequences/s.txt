@@ -14,7 +14,7 @@ hspproteome_13.fasta   3
 hspproteome_14.fasta   1
 hspproteome_15.fasta   1
 hspproteome_16.fasta   1
-hspproteome_17.fasta   4
+hspproteome_17.fasta   3
 hspproteome_18.fasta   8
 hspproteome_19.fasta   1
 hspproteome_20.fasta   3

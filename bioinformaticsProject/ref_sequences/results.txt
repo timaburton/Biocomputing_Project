@@ -1,0 +1,12 @@
+Top 10 candidates for Study
+Proteome	hsp gene matches
+proteome_50.fasta   3	has mcrAgene
+proteome_45.fasta   3	has mcrAgene
+proteome_42.fasta   3	has mcrAgene
+proteome_03.fasta   3	has mcrAgene
+proteome_24.fasta   2	has mcrAgene
+proteome_23.fasta   2	has mcrAgene
+proteome_07.fasta   2	has mcrAgene
+proteome_05.fasta   2	has mcrAgene
+proteome_48.fasta   1	has mcrAgene
+proteome_44.fasta   1	has mcrAgene

@@ -1,50 +1,50 @@
-mrcAproteome_01.fasta  
-mrcAproteome_02.fasta  
-mrcAproteome_03.fasta   1117.5
-mrcAproteome_04.fasta  
-mrcAproteome_05.fasta   1020.3
-mrcAproteome_06.fasta  
-mrcAproteome_07.fasta   1017.6
-mrcAproteome_08.fasta  
-mrcAproteome_09.fasta  
-mrcAproteome_10.fasta  
-mrcAproteome_11.fasta  
-mrcAproteome_12.fasta  
-mrcAproteome_13.fasta  
-mrcAproteome_14.fasta  
-mrcAproteome_15.fasta   1030.1
-mrcAproteome_16.fasta   1061.8
-mrcAproteome_17.fasta  
-mrcAproteome_18.fasta  
-mrcAproteome_19.fasta   1031.6
-mrcAproteome_20.fasta  
-mrcAproteome_21.fasta  
-mrcAproteome_22.fasta  
-mrcAproteome_23.fasta   1058.0
-mrcAproteome_24.fasta   1124.1
-mrcAproteome_25.fasta  
-mrcAproteome_26.fasta  
-mrcAproteome_27.fasta  
-mrcAproteome_28.fasta  
-mrcAproteome_29.fasta   1089.5
-mrcAproteome_30.fasta  
-mrcAproteome_31.fasta  
-mrcAproteome_32.fasta  
-mrcAproteome_33.fasta  
-mrcAproteome_34.fasta  
-mrcAproteome_35.fasta  
-mrcAproteome_36.fasta  
-mrcAproteome_37.fasta  
-mrcAproteome_38.fasta   1061.8
-mrcAproteome_39.fasta   1061.8
-mrcAproteome_40.fasta  
-mrcAproteome_41.fasta  
-mrcAproteome_42.fasta   1117.5
-mrcAproteome_43.fasta  
-mrcAproteome_44.fasta   1061.8
-mrcAproteome_45.fasta   1117.5
-mrcAproteome_46.fasta  
-mrcAproteome_47.fasta  
-mrcAproteome_48.fasta   1061.8
-mrcAproteome_49.fasta  
-mrcAproteome_50.fasta   1117.5
+
+
+1116.8
+
+1019.6
+
+1016.9
+
+
+
+
+
+
+
+1029.4
+1061.1
+
+
+1030.9
+
+
+
+1057.3
+1123.3
+
+
+
+
+1088.8
+
+
+
+
+
+
+
+
+1061.1
+1061.1
+
+
+1116.8
+
+1061.1
+1116.8
+
+
+1061.1
+
+1116.8
