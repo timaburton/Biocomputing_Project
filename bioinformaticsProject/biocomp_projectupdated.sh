@@ -1,10 +1,13 @@
-#this is the rough draft of our Bash project script
-#usage: TBD but something around bash biocomp_project.sh <ref sequence file> <location of muscle tool>
+#usage: To determine candidates based on hsp70 (more than two copies) and mcrA (one copy). Looking for organisms with both.
+# Absolute Path to ref_sequences: Private/Biocomputing_Project/bioinformaticsProject/ref_sequences/
+#Direct path to muscle tool: ~/Private/bin/muscle. Absolute path to hmmbuild:  ~/Private/bin/hmmbuild
+#Direct path to proteomes cd Private/Biocomputing_Project/bioinformaticsProject/proteomes/
+# Direct path to hmm search ~/Private/bin/hmmsearch 
 
 #access ref files, starting in the home directory 
 #cd ref_sequences 
 
-cd Private/Biocomputing_Project/bioinformaticsProject/ref_sequences/
+cd $1
 
 #to combine the raw hsp70 files into one fasta that we will hmm
 
@@ -16,35 +19,35 @@ cat mcrAgene_* | grep -v fasta > mcrA.fasta
 
 #muscling the compiled hsp70
 
-~/Private/bin/muscle -in hsp70.fasta -out hsp70.hmm
+$2 -in hsp70.fasta -out hsp70.hmm
 
 #muscling the compiled mcrA
 
-~/Private/bin/muscle -in mcrA.fasta -out mcrAgene.hmm
+$2  -in mcrA.fasta -out mcrAgene.hmm
 
 #Build a profile HMM from muscle output for hsp70
 
-~/Private/bin/hmmbuild  hsp70results hsp70.hmm 
+$3  hsp70results hsp70.hmm 
 
 #Build a profile HMM from muscle output for mcrA
 
-~/Private/bin/hmmbuild  mcrAresults mcrAgene.hmm 
+$3  mcrAresults mcrA/gene.hmm 
 
 #Compile proteomes to use as file to search using hmmsearch
 
-mv ./mcrAresults ../proteomes 
+mv ./mcrAresults $4 
 
-mv ./hsp70results ../proteomes
+mv ./hsp70results $4
 
 #Move to proteome directory from ref_sequences
 
-cd  ~/Private/Biocomputing_Project/bioinformaticsProject/proteomes/
+cd $4
 
 #hmmsearch hsp70
 
 for file in proteome*
 do
-echo | ~/Private/bin/hmmsearch --tblout hsp70search$file  hsp70results  $file
+echo | $5  --tblout hsp70search$file  hsp70results  $file
 done
 
 #Sorting hsp based on proteome
@@ -67,7 +70,7 @@ done
 
 for file in proteome*
 do
-echo | ~/Private/bin/hmmsearch --tblout mcrAsearch$file  mcrAresults  $file
+echo | $5  --tblout mcrAsearch$file  mcrAresults  $file
 done
 
 #Sorting mcrA  based on proteome
