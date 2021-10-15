@@ -22,7 +22,7 @@ cat $1/hsp70gene_*.fasta > hsp70gene.fasta
 ../hmmer/bin/hmmbuild mcrA_profile.hmm mcrAgene_aligned.fasta
 ../hmmer/bin/hmmbuild hsp70_profile.hmm hsp70gene_aligned.fasta
 
-echo "proteome_ID,mcrA_gene,hsp70_gene" > Results/match_count_table.csv
+echo "proteome_ID,mcrA_gene,hsp70_gene" > Results/match_count_table.csv # create an empty table with column names
 
 # 4. search for gene in each proteome
 for proteome in $2/proteome_*.fasta
@@ -32,14 +32,14 @@ do
 mcrA_match=$(cat mcrA_search.txt | grep -v "#" | wc -l)
 hsp70_match=$(cat hsp70_search.txt | grep -v "#" | wc -l)
 # make a table with 3 columns (proteome name, mcrA match count, hsp70 match count)
-proteomeID=$(echo $proteome | sed 's/.*\/\(.*\)\..*/\1/')
+proteomeID=$(echo $proteome | sed 's/.*\/\(.*\)\..*/\1/') # extract the ptoteome ID only, instead of the whole file path
 echo "$proteomeID,$mcrA_match,$hsp70_match" >> Results/match_count_table.csv
 done
 
-echo "These are the pH-resistant methanogens chosen according to the presence of the mcrA gene and the number of copies of hsp70 gene (we chose the copy number 2 or more)." > Results/pHresistant_methanogens.txt
+echo "These are the pH-resistant methanogens chosen according to the presence of the mcrA gene and the number of copies of hsp70 gene (we chose the copy number 2 or more)." > Results/pHresistant_methanogens.txt # make an empty text file with an introductory sentence
 
 # 5. choose the pH-resistant methanogens
-cat Results/match_count_table.csv | sort -t , -k 2 | awk -F , '$3>"1"' | awk -F , '$2=="1"' > chosen_methanogens.txt
+cat Results/match_count_table.csv | awk -F , '$3>"1"' | awk -F , '$2=="1"' > chosen_methanogens.txt # chooses the proteomes that have mcrA gene and 2 or more copies of hsp70 gene
 cut -d , -f 1 chosen_methanogens.txt >> Results/pHresistant_methanogens.txt
 
 rm mcrAgene.fasta
