@@ -1,6 +1,6 @@
 #Input:the name of two reference proteome sequence
 #Output:the file named "candidate_pH-resistant_methanogens.csv" which containing the isolates that meet the requiments of two genes
-#Usage: bash project ./ref_sequences hsp mcr
+#Usage: bash project.sh ./ref_sequences hsp mcr
 
 #Empty files
 echo -e '\c'> ref-hsp.fasta
@@ -38,7 +38,7 @@ echo "$proteome,hsp copy $count_hsp,$count_mcr" >> proteome.csv
 done
 
 #Deleting unmatched proteome, ranking matched proteome
-cat proteome.csv | grep -v -w "0" | grep -v -w "hsp copy 1" | sort -t , -k 2 -r | sed 's/hsp copy//' > candidate_pH-resistant_methanogens.csv
+cat proteome.csv | grep -v -w "0" | grep -v -w "hsp copy 1" | sed 's/hsp copy//' | sort -t , -k 2 -k 3 -n -r  > candidate_pH-resistant_methanogens.csv
 #name each column
 sed -i "1 i proteome_name,count_$2,count_$3" candidate_pH-resistant_methanogens.csv
 
