@@ -1,3 +1,8 @@
+# contributors:
+	# Sarah Nicholls
+	# Madeline Laporte
+	# Marton Barta
+
 ## Putting all our mcrAgenes and hsp70gene into their own files (with for loop)
 
 	# mcrAgene
