@@ -1,0 +1,5 @@
+Proteome_50
+Proteome_45
+Proteome_42
+Proteome_03
+Proteome_24
