@@ -1,0 +1,4 @@
+WP_048118742.1       -          hsp70                -                  0 1101.3  23.8         0 1101.1  23.8   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+WP_048116754.1       -          hsp70                -           6.5e-110  365.8   8.9  2.2e-100  334.3   3.6   2.0   2   0   0   2   2   2   2 MULTISPECIES: hypothetical protein 
+WP_048116752.1       -          hsp70                -           6.8e-107  355.8  13.6  8.6e-100  332.4   6.5   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
+# Target file:     proteome_03.fasta
