@@ -1,0 +1,9 @@
+proteome_name,count_hsp,count_mcr
+proteomes/proteome_50.fasta, 3,1
+proteomes/proteome_45.fasta, 3,1
+proteomes/proteome_42.fasta, 3,1
+proteomes/proteome_03.fasta, 3,1
+proteomes/proteome_23.fasta, 2,2
+proteomes/proteome_24.fasta, 2,1
+proteomes/proteome_07.fasta, 2,1
+proteomes/proteome_05.fasta, 2,1
