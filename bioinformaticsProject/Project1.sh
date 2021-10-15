@@ -7,6 +7,7 @@
 # The outputs of the code are a table showing a match count for mcrA gene and hsp70 gene for each proteome, and a text file with the names of the candidate pH-resistant methanogens based on the results.
 
 # USAGE: bash Project1.sh reference_sequence_path proteome_sequence_path
+# NB! be sure that after entering the reference_sequence_path and proteome_sequence_path there is no / (slash) automatically added at the end, otherwise it will result in double // (slash) in between the directory and the file, resulting in an error
 
 mkdir Results
 
@@ -32,7 +33,7 @@ do
 mcrA_match=$(cat mcrA_search.txt | grep -v "#" | wc -l)
 hsp70_match=$(cat hsp70_search.txt | grep -v "#" | wc -l)
 # make a table with 3 columns (proteome name, mcrA match count, hsp70 match count)
-proteomeID=$(echo $proteome | sed 's/.*\/\(.*\)\..*/\1/') # extract the ptoteome ID only, instead of the whole file path
+proteomeID=$(echo $proteome | sed 's/.*\/\(.*\)\..*/\1/') # extract the proteome ID only, instead of the whole file path
 echo "$proteomeID,$mcrA_match,$hsp70_match" >> Results/match_count_table.csv
 done
 
