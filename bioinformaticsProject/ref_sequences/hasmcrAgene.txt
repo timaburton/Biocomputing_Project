@@ -1,0 +1,16 @@
+mrcAproteome_24.fasta   1122.6
+mrcAproteome_50.fasta   1116.1
+mrcAproteome_45.fasta   1116.1
+mrcAproteome_42.fasta   1116.1
+mrcAproteome_03.fasta   1116.1
+mrcAproteome_29.fasta   1088.1
+mrcAproteome_48.fasta   1060.5
+mrcAproteome_44.fasta   1060.5
+mrcAproteome_39.fasta   1060.5
+mrcAproteome_38.fasta   1060.5
+mrcAproteome_16.fasta   1060.5
+mrcAproteome_23.fasta   1056.6
+mrcAproteome_19.fasta   1030.3
+mrcAproteome_15.fasta   1028.8
+mrcAproteome_05.fasta   1019.0
+mrcAproteome_07.fasta   1016.3
