@@ -34,24 +34,28 @@ cat mcrAgene_* | grep -v fasta > mcrA.fasta
 mv ./mcrAresults ../proteomes 
 
 mv ./hsp70results ../proteomes
+
 #cd ..
 
-#Enter Proteome
+#hmmsearch hsp70
 
-#cd $4
+for file in proteome*
+do
+echo | ~/Private/bin/hmmsearch --tblout hsp70search$file  hsp70results  $file
+done
 
-#Compile proteomes to use as file to search using hmmsearch
+#hmmsearch mcrA
 
-#cat proteome* | grep -v fasta > proteome.fasta
+for file in proteome*
+do
+echo | ~/Private/bin/hmmsearch --tblout mcrAsearch$file  mcrAresults  $file
+done
 
-#Do we need code here that moved proteomes.fasta into ref sequence? If so, 
+#Compiling all hsp70searches
 
-#searching sequence database hsp70 
+echo | cat hsp70searchproteome_* > compositesearch1
 
-# --tblout hsp70searchofficial hsp70results proteome.fasta
+#Compiling all mcrAsearches
 
-#searching sequence database mcrA
+echo | catmcrAsearchproteome_* > compositesearch2
 
-# --tblout mcrAsearchofficial mcrAresults proteome.fasta
-
-#Converting to a text file with proteome names
